@@ -1,9 +1,8 @@
 #!/bin/bash
 
-echo "Folder $1"
+echo "Create file for Folder $1"
 
-echo "Hello World"
-echo "ls -l swagger_config"
+
 cp swagger_config/app/controllers/swagger_controller.rb $1/app/controllers
 mkdir $1/app/controllers/swagger
 cp swagger_config/app/controllers/swagger/users_swagger.rb $1/app/controllers/swagger/users_swagger.rb

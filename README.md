@@ -6,3 +6,8 @@
 - Step 3: bundle exec rails s -p 3000 -b 0.0.0.0
 - Step 4: Link to http://localhost:3000/api_docs/swagger_docs/v1
 - Step 5: Take a coffee
+
+
+### Images
+
+![](assets/01.png)
